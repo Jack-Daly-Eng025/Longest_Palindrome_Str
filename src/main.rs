@@ -29,8 +29,8 @@ impl Solution {
 
 
 fn main(){
-    let my_string = "ababababa".to_string();
-    let my_other_string = "bababababab".to_string();
+    let my_string = "abcabacbaba".to_string();
+    let my_other_string = "baabacabaccabaabc".to_string();
 
     let mut palindrome_longest = Solution::longest_palindrome(my_string);
     println!("{palindrome_longest}");
